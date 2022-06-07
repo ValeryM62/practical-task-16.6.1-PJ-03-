@@ -2,10 +2,8 @@ import requests
 import json
 from Config import keys
 
-
 class ConvertionExeption(Exception):
     pass
-
 
 class CryptoConverter:
     @staticmethod
